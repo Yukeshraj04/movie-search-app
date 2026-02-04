@@ -1,11 +1,11 @@
 /* ===== VARIABLES ===== */
 :root {
-  --primary: #2563eb;
-  --primary-dark: #1d4ed8;
-  --secondary: #f59e0b;
+  --primary: #ff6b35;
+  --primary-dark: #e55a2b;
+  --secondary: #ffa500;
   --dark: #1e293b;
-  --light: #f8fafc;
-  --gray: #94a3b8;
+  --light: #ffffff;
+  --gray: #cccccc;
   --success: #10b981;
   --error: #ef4444;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f1f5f9;
+  background-color: var(--light);
   color: var(--dark);
   line-height: 1.6;
   min-height: 100vh;
